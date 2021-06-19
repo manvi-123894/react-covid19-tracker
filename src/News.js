@@ -38,7 +38,7 @@ const News = ({countries}) => {
   }
 
   useEffect(()=>{
-    // fetchNews("https://coronavirus-smartable.p.rapidapi.com/news/v1/global/");
+     fetchNews("https://coronavirus-smartable.p.rapidapi.com/news/v1/global/");
   },[]);
 
 
